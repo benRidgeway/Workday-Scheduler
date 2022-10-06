@@ -1,4 +1,4 @@
-const DateTime = luxon.DateTime;
+const now = moment();
 
 var todaysDateEl = $('#currentDay');
 
@@ -85,7 +85,7 @@ var createNewArray = function () {
         var newObj = {};
 
     
-        newTime = DateTime.fromISO(startHour).plus({ hours: i });
+        newTime = now.fromISO(startHour).plus({ hours: i });
 
 
         newTimeSlot = newTime.toLocaleString({

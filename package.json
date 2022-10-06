@@ -1,0 +1,23 @@
+{
+  "name": "workday-scheduler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmon-theres-gotta-be-a-name-available/Workday-Scheduler.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cmon-theres-gotta-be-a-name-available/Workday-Scheduler/issues"
+  },
+  "homepage": "https://github.com/cmon-theres-gotta-be-a-name-available/Workday-Scheduler#readme",
+  "dependencies": {
+    "luxon": "^3.0.4",
+    "moment": "^2.29.4"
+  }
+}
